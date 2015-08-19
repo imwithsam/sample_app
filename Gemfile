@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby 'rbx-2.5.8'
+ruby '2.2.2'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.3'
@@ -59,6 +59,7 @@ end
 group :test do
   gem 'minitest-reporters'
   gem 'mini_backtrace'
+  gem 'guard'
   gem 'guard-minitest'
 end
 
